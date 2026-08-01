@@ -1,4 +1,4 @@
-// Type declarations for @seneca/browser-debug.
+// Type declarations for @voxgig/seneca-browser-debug.
 
 export interface BrowserDebugOptions {
   /** Max number of captured flows kept in the ring buffer. Default 500. */

@@ -1,5 +1,5 @@
 {
-  "name": "@seneca/browser-debug",
+  "name": "@voxgig/seneca-browser-debug",
   "version": "0.1.0",
   "description": "In-window debug devtools for Seneca in the browser: a resizable, hideable pop-up showing live message flows and config. Not a browser extension.",
   "main": "browser-debug.js",

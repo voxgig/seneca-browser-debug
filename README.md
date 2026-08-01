@@ -1,4 +1,4 @@
-# @seneca/browser-debug
+# @voxgig/seneca-browser-debug
 
 In-window developer devtools for [Seneca][] running in the browser — a
 resizable, draggable, hideable pop-up panel that shows live **message flows**
@@ -19,7 +19,7 @@ It is a support plugin for [`@seneca/browser`][seneca-browser].
 ## Install
 
 ```sh
-npm install @seneca/browser-debug
+npm install @voxgig/seneca-browser-debug
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ npm install @seneca/browser-debug
 
 ```js
 import Seneca from '@seneca/browser'
-import SenecaBrowserDebug from '@seneca/browser-debug'
+import SenecaBrowserDebug from '@voxgig/seneca-browser-debug'
 
 const seneca = Seneca({ legacy: false }).client({ type: 'browser', pin: 'aim:*' })
 seneca.use(SenecaBrowserDebug, { remotePins: 'aim:*' })
